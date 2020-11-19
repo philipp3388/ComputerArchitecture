@@ -1,0 +1,18 @@
+module ex1
+(
+		input      	[31:0] rs, rt, 
+		input	    	[4:0] shamt, 
+		input	    	[5:0] funct,
+   	output     	[31:0] rd
+);
+
+always@(funct or rs or rt or shamt)
+case(funct)
+
+100000:
+rd = 
+end
+
+100010: begin
+	
+endmodule
